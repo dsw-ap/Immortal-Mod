@@ -1,0 +1,7 @@
+{
+    "parent":"immortal:block/deco/snowy/leaves_cross",
+    "textures": {
+        "all":"immortal:block/deco_block/snowy/spruce_leaves",
+	"bushy": "immortal:block/deco_block/snowy/spruce_bush"
+    }
+}

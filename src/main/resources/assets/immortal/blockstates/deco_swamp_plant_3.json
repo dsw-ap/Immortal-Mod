@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "immortal:block/deco/swamp/deco_swamp_plant_3"
+      },
+      {
+        "model": "immortal:block/deco/swamp/deco_swamp_plant_3",
+        "y": 90
+      },
+      {
+        "model": "immortal:block/deco/swamp/deco_swamp_plant_3",
+        "y": 180
+      },
+      {
+        "model": "immortal:block/deco/swamp/deco_swamp_plant_3",
+        "y": 270
+      }
+    ]
+  }
+}

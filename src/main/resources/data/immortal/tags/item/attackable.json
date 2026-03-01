@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:swords",
+    "immortal:test_item",
+    "immortal:test_item_2",
+    "immortal:test_item_3",
+    "immortal:test_item_4",
+    "immortal:test_item_5",
+    "immortal:test_item_6",
+    "immortal:test_item_7",
+    "immortal:test_item_8"
+  ]
+}

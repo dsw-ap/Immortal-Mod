@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "immortal:block/deco/forest/grass_slab"
+      },
+      {
+        "model": "immortal:block/deco/forest/grass_slab",
+        "y": 90
+      },
+      {
+        "model": "immortal:block/deco/forest/grass_slab",
+        "y": 180
+      },
+      {
+        "model": "immortal:block/deco/forest/grass_slab",
+        "y": 270
+      }
+    ]
+  }
+}

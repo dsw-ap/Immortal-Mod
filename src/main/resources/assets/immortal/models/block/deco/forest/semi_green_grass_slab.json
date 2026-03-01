@@ -1,0 +1,9 @@
+{
+  "parent": "immortal:block/deco/forest/_new_slab",
+	"textures": {
+        "particle": "immortal:block/deco_block/forest/grass_b",
+        "bottom": "immortal:block/deco_block/forest/grass_down",
+        "top": "immortal:block/deco_block/forest/grass_b",
+        "side": "immortal:block/deco_block/forest/grass_b_side"
+    }
+}

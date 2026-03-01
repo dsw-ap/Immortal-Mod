@@ -1,0 +1,434 @@
+package com.tearhpi.immortal.entity.capability;
+
+
+import net.minecraft.nbt.CompoundTag;
+
+import javax.lang.model.type.ArrayType;
+import java.util.ArrayList;
+
+public class Skill {
+    //技能点相关
+    public int Skill_Point = 0;
+    public int Skill_Point_Used = 0;
+    public int Skill_Upgrade_Point = 0;
+    public int Skill_Upgrade_Point_Used = 0;
+    //技能等级相关
+    public int Skill_0_Level = 0;
+    public int Skill_1_Level = 0;
+    public int Skill_2_Level = 0;
+    public int Skill_3_Level = 0;
+    public int Skill_4_Level = 0;
+    public int Skill_5_Level = 0;
+    public int Skill_6_Level = 0;
+    public int Skill_7_Level = 0;
+    public int Skill_8_Level = 0;
+    public int Skill_9_Level = 0;
+    public int Skill_10_Level = 0;
+    public int Skill_11_Level = 0;
+    public int Skill_12_Level = 0;
+    public int Skill_13_Level = 0;
+    public int Skill_14_Level = 0;
+    public int Skill_15_Level = 0;
+    public int Skill_16_Level = 0;
+    public int Skill_17_Level = 0;
+    public int Skill_18_Level = 0;
+    public int Skill_19_Level = 0;
+    public int Skill_20_Level = 0;
+    public int Skill_21_Level = 0;
+    public int Skill_22_Level = 0;
+    public int Skill_23_Level = 0;
+    public int Skill_24_Level = 0;
+    public int Skill_25_Level = 0;
+    public int Skill_26_Level = 0;
+    public int Skill_27_Level = 0;
+    public int Skill_28_Level = 0;
+    public int Skill_29_Level = 0;
+    public int Skill_30_Level = 0;
+    public int Skill_31_Level = 0;
+    public int Skill_32_Level = 0;
+    public int Skill_33_Level = 0;
+    public int Skill_34_Level = 0;
+    public int Skill_35_Level = 0;
+    public int Skill_36_Level = 0;
+    public int Skill_37_Level = 0;
+    public int Skill_38_Level = 0;
+    public int Skill_39_Level = 0;
+    public int Skill_40_Level = 0;
+    public int Skill_41_Level = 0;
+    public int Skill_42_Level = 0;
+    public int Skill_43_Level = 0;
+    public int Skill_44_Level = 0;
+    public int Skill_45_Level = 0;
+    public int Skill_46_Level = 0;
+    public int Skill_47_Level = 0;
+    public int Skill_48_Level = 0;
+    public int Skill_49_Level = 0;
+    public int Skill_50_Level = 0;
+    public int Skill_51_Level = 0;
+    public int Skill_52_Level = 0;
+    public int Skill_53_Level = 0;
+    public int Skill_54_Level = 0;
+    public int Skill_55_Level = 0;
+    public int Skill_56_Level = 0;
+    public int Skill_57_Level = 0;
+    public int Skill_58_Level = 0;
+    public int Skill_59_Level = 0;
+    public int Skill_60_Level = 0;
+    public int Skill_61_Level = 0;
+    public int Skill_62_Level = 0;
+    public int Skill_63_Level = 0;
+    public int Skill_64_Level = 0;
+    public int Skill_65_Level = 0;
+    public int Skill_66_Level = 0;
+    public int Skill_67_Level = 0;
+    public int Skill_68_Level = 0;
+    public int Skill_69_Level = 0;
+    public int Skill_70_Level = 0;
+
+        public Skill() {
+        }
+        public void readAdditionalSaveData(CompoundTag p_38716_) {
+            if (p_38716_.contains("Skill")) {
+                //NBT信息读取
+                read(p_38716_.getCompound("Skill"));
+            }
+        }
+
+        public void read(CompoundTag Skill) {
+                //NBT信息读取
+                //1.技能点信息读取
+                CompoundTag Skill_Point_Related = Skill.getCompound("Skill_Point_Related");
+                //技能点
+                this.Skill_Point = Skill_Point_Related.getInt("Skill_Point");
+                this.Skill_Point_Used = Skill_Point_Related.getInt("Skill_Point_Used");
+                //升级点
+                this.Skill_Upgrade_Point = Skill_Point_Related.getInt("Skill_Upgrade_Point");
+                this.Skill_Upgrade_Point_Used = Skill_Point_Related.getInt("Skill_Upgrade_Point_Used");
+                //2.技能等级信息读取
+                CompoundTag Skill_Level_Related = Skill.getCompound("Skill_Level_Related");
+                this.Skill_0_Level = Skill_Level_Related.getInt("Skill_Level_0");
+                this.Skill_1_Level = Skill_Level_Related.getInt("Skill_Level_1");
+                this.Skill_2_Level = Skill_Level_Related.getInt("Skill_Level_2");
+                this.Skill_3_Level = Skill_Level_Related.getInt("Skill_Level_3");
+                this.Skill_4_Level = Skill_Level_Related.getInt("Skill_Level_4");
+                this.Skill_5_Level = Skill_Level_Related.getInt("Skill_Level_5");
+                this.Skill_6_Level = Skill_Level_Related.getInt("Skill_Level_6");
+                this.Skill_7_Level = Skill_Level_Related.getInt("Skill_Level_7");
+                this.Skill_8_Level = Skill_Level_Related.getInt("Skill_Level_8");
+                this.Skill_9_Level = Skill_Level_Related.getInt("Skill_Level_9");
+                this.Skill_10_Level = Skill_Level_Related.getInt("Skill_Level_10");
+                this.Skill_11_Level = Skill_Level_Related.getInt("Skill_Level_11");
+                this.Skill_12_Level = Skill_Level_Related.getInt("Skill_Level_12");
+                this.Skill_13_Level = Skill_Level_Related.getInt("Skill_Level_13");
+                this.Skill_14_Level = Skill_Level_Related.getInt("Skill_Level_14");
+                this.Skill_15_Level = Skill_Level_Related.getInt("Skill_Level_15");
+                this.Skill_16_Level = Skill_Level_Related.getInt("Skill_Level_16");
+                this.Skill_17_Level = Skill_Level_Related.getInt("Skill_Level_17");
+                this.Skill_18_Level = Skill_Level_Related.getInt("Skill_Level_18");
+                this.Skill_19_Level = Skill_Level_Related.getInt("Skill_Level_19");
+                this.Skill_20_Level = Skill_Level_Related.getInt("Skill_Level_20");
+                this.Skill_21_Level = Skill_Level_Related.getInt("Skill_Level_21");
+                this.Skill_22_Level = Skill_Level_Related.getInt("Skill_Level_22");
+                this.Skill_23_Level = Skill_Level_Related.getInt("Skill_Level_23");
+                this.Skill_24_Level = Skill_Level_Related.getInt("Skill_Level_24");
+                this.Skill_25_Level = Skill_Level_Related.getInt("Skill_Level_25");
+                this.Skill_26_Level = Skill_Level_Related.getInt("Skill_Level_26");
+                this.Skill_27_Level = Skill_Level_Related.getInt("Skill_Level_27");
+                this.Skill_28_Level = Skill_Level_Related.getInt("Skill_Level_28");
+                this.Skill_29_Level = Skill_Level_Related.getInt("Skill_Level_29");
+                this.Skill_30_Level = Skill_Level_Related.getInt("Skill_Level_30");
+                this.Skill_31_Level = Skill_Level_Related.getInt("Skill_Level_31");
+                this.Skill_32_Level = Skill_Level_Related.getInt("Skill_Level_32");
+                this.Skill_33_Level = Skill_Level_Related.getInt("Skill_Level_33");
+                this.Skill_34_Level = Skill_Level_Related.getInt("Skill_Level_34");
+                this.Skill_35_Level = Skill_Level_Related.getInt("Skill_Level_35");
+                this.Skill_36_Level = Skill_Level_Related.getInt("Skill_Level_36");
+                this.Skill_37_Level = Skill_Level_Related.getInt("Skill_Level_37");
+                this.Skill_38_Level = Skill_Level_Related.getInt("Skill_Level_38");
+                this.Skill_39_Level = Skill_Level_Related.getInt("Skill_Level_39");
+                this.Skill_40_Level = Skill_Level_Related.getInt("Skill_Level_40");
+                this.Skill_41_Level = Skill_Level_Related.getInt("Skill_Level_41");
+                this.Skill_42_Level = Skill_Level_Related.getInt("Skill_Level_42");
+                this.Skill_43_Level = Skill_Level_Related.getInt("Skill_Level_43");
+                this.Skill_44_Level = Skill_Level_Related.getInt("Skill_Level_44");
+                this.Skill_45_Level = Skill_Level_Related.getInt("Skill_Level_45");
+                this.Skill_46_Level = Skill_Level_Related.getInt("Skill_Level_46");
+                this.Skill_47_Level = Skill_Level_Related.getInt("Skill_Level_47");
+                this.Skill_48_Level = Skill_Level_Related.getInt("Skill_Level_48");
+                this.Skill_49_Level = Skill_Level_Related.getInt("Skill_Level_49");
+                this.Skill_50_Level = Skill_Level_Related.getInt("Skill_Level_50");
+                this.Skill_51_Level = Skill_Level_Related.getInt("Skill_Level_51");
+                this.Skill_52_Level = Skill_Level_Related.getInt("Skill_Level_52");
+                this.Skill_53_Level = Skill_Level_Related.getInt("Skill_Level_53");
+                this.Skill_54_Level = Skill_Level_Related.getInt("Skill_Level_54");
+                this.Skill_55_Level = Skill_Level_Related.getInt("Skill_Level_55");
+                this.Skill_56_Level = Skill_Level_Related.getInt("Skill_Level_56");
+                this.Skill_57_Level = Skill_Level_Related.getInt("Skill_Level_57");
+                this.Skill_58_Level = Skill_Level_Related.getInt("Skill_Level_58");
+                this.Skill_59_Level = Skill_Level_Related.getInt("Skill_Level_59");
+                this.Skill_60_Level = Skill_Level_Related.getInt("Skill_Level_60");
+                this.Skill_61_Level = Skill_Level_Related.getInt("Skill_Level_61");
+                this.Skill_62_Level = Skill_Level_Related.getInt("Skill_Level_62");
+                this.Skill_63_Level = Skill_Level_Related.getInt("Skill_Level_63");
+                this.Skill_64_Level = Skill_Level_Related.getInt("Skill_Level_64");
+                this.Skill_65_Level = Skill_Level_Related.getInt("Skill_Level_65");
+                this.Skill_66_Level = Skill_Level_Related.getInt("Skill_Level_66");
+                this.Skill_67_Level = Skill_Level_Related.getInt("Skill_Level_67");
+                this.Skill_68_Level = Skill_Level_Related.getInt("Skill_Level_68");
+                this.Skill_69_Level = Skill_Level_Related.getInt("Skill_Level_69");
+                this.Skill_70_Level = Skill_Level_Related.getInt("Skill_Level_70");
+        }
+
+        public void addAdditionalSaveData(CompoundTag p_38720_, ArrayList<Integer> p_38719_) {
+            CompoundTag Skill = getSkillCompoundTag(p_38719_);
+            p_38720_.put("Skill", Skill);
+        }
+        public ArrayList<Integer> getNumInfo(){
+            ArrayList<Integer> SkillInfo = new ArrayList<Integer>();
+            SkillInfo.add(this.Skill_Point);
+            SkillInfo.add(this.Skill_Point_Used);
+            SkillInfo.add(this.Skill_Upgrade_Point);
+            SkillInfo.add(this.Skill_Upgrade_Point_Used);
+            SkillInfo.add(this.Skill_0_Level);
+            SkillInfo.add(this.Skill_1_Level);
+            SkillInfo.add(this.Skill_2_Level);
+            SkillInfo.add(this.Skill_3_Level);
+            SkillInfo.add(this.Skill_4_Level);
+            SkillInfo.add(this.Skill_5_Level);
+            SkillInfo.add(this.Skill_6_Level);
+            SkillInfo.add(this.Skill_7_Level);
+            SkillInfo.add(this.Skill_8_Level);
+            SkillInfo.add(this.Skill_9_Level);
+            SkillInfo.add(this.Skill_10_Level);
+            SkillInfo.add(this.Skill_11_Level);
+            SkillInfo.add(this.Skill_12_Level);
+            SkillInfo.add(this.Skill_13_Level);
+            SkillInfo.add(this.Skill_14_Level);
+            SkillInfo.add(this.Skill_15_Level);
+            SkillInfo.add(this.Skill_16_Level);
+            SkillInfo.add(this.Skill_17_Level);
+            SkillInfo.add(this.Skill_18_Level);
+            SkillInfo.add(this.Skill_19_Level);
+            SkillInfo.add(this.Skill_20_Level);
+            SkillInfo.add(this.Skill_21_Level);
+            SkillInfo.add(this.Skill_22_Level);
+            SkillInfo.add(this.Skill_23_Level);
+            SkillInfo.add(this.Skill_24_Level);
+            SkillInfo.add(this.Skill_25_Level);
+            SkillInfo.add(this.Skill_26_Level);
+            SkillInfo.add(this.Skill_27_Level);
+            SkillInfo.add(this.Skill_28_Level);
+            SkillInfo.add(this.Skill_29_Level);
+            SkillInfo.add(this.Skill_30_Level);
+            SkillInfo.add(this.Skill_31_Level);
+            SkillInfo.add(this.Skill_32_Level);
+            SkillInfo.add(this.Skill_33_Level);
+            SkillInfo.add(this.Skill_34_Level);
+            SkillInfo.add(this.Skill_35_Level);
+            SkillInfo.add(this.Skill_36_Level);
+            SkillInfo.add(this.Skill_37_Level);
+            SkillInfo.add(this.Skill_38_Level);
+            SkillInfo.add(this.Skill_39_Level);
+            SkillInfo.add(this.Skill_40_Level);
+            SkillInfo.add(this.Skill_41_Level);
+            SkillInfo.add(this.Skill_42_Level);
+            SkillInfo.add(this.Skill_43_Level);
+            SkillInfo.add(this.Skill_44_Level);
+            SkillInfo.add(this.Skill_45_Level);
+            SkillInfo.add(this.Skill_46_Level);
+            SkillInfo.add(this.Skill_47_Level);
+            SkillInfo.add(this.Skill_48_Level);
+            SkillInfo.add(this.Skill_49_Level);
+            SkillInfo.add(this.Skill_50_Level);
+            SkillInfo.add(this.Skill_51_Level);
+            SkillInfo.add(this.Skill_52_Level);
+            SkillInfo.add(this.Skill_53_Level);
+            SkillInfo.add(this.Skill_54_Level);
+            SkillInfo.add(this.Skill_55_Level);
+            SkillInfo.add(this.Skill_56_Level);
+            SkillInfo.add(this.Skill_57_Level);
+            SkillInfo.add(this.Skill_58_Level);
+            SkillInfo.add(this.Skill_59_Level);
+            SkillInfo.add(this.Skill_60_Level);
+            SkillInfo.add(this.Skill_61_Level);
+            SkillInfo.add(this.Skill_62_Level);
+            SkillInfo.add(this.Skill_63_Level);
+            SkillInfo.add(this.Skill_64_Level);
+            SkillInfo.add(this.Skill_65_Level);
+            SkillInfo.add(this.Skill_66_Level);
+            SkillInfo.add(this.Skill_67_Level);
+            SkillInfo.add(this.Skill_68_Level);
+            SkillInfo.add(this.Skill_69_Level);
+            SkillInfo.add(this.Skill_70_Level);
+            return SkillInfo;
+        }
+        public CompoundTag getSkillCompoundTag(ArrayList<Integer> p_38719_){
+            //NBT组 技能
+            CompoundTag Skill = new CompoundTag();
+            //NBT信息添加
+            //1.技能点信息添加
+            CompoundTag Skill_Point_Related = new CompoundTag();
+            //技能点
+            Skill_Point_Related.putInt("Skill_Point", p_38719_.get(0));
+            Skill_Point_Related.putInt("Skill_Point_Used", p_38719_.get(1));
+            //升级点
+            Skill_Point_Related.putInt("Skill_Upgrade_Point", p_38719_.get(2));
+            Skill_Point_Related.putInt("Skill_Upgrade_Point_Used", p_38719_.get(3));
+            Skill.put("Skill_Point_Related", Skill_Point_Related);
+            //2.技能等级信息添加
+            CompoundTag Skill_Level_Related = new CompoundTag();
+            Skill_Level_Related.putInt("Skill_Level_0", p_38719_.get(4));
+            Skill_Level_Related.putInt("Skill_Level_1", p_38719_.get(5));
+            Skill_Level_Related.putInt("Skill_Level_2", p_38719_.get(6));
+            Skill_Level_Related.putInt("Skill_Level_3", p_38719_.get(7));
+            Skill_Level_Related.putInt("Skill_Level_4", p_38719_.get(8));
+            Skill_Level_Related.putInt("Skill_Level_5", p_38719_.get(9));
+            Skill_Level_Related.putInt("Skill_Level_6", p_38719_.get(10));
+            Skill_Level_Related.putInt("Skill_Level_7", p_38719_.get(11));
+            Skill_Level_Related.putInt("Skill_Level_8", p_38719_.get(12));
+            Skill_Level_Related.putInt("Skill_Level_9", p_38719_.get(13));
+            Skill_Level_Related.putInt("Skill_Level_10", p_38719_.get(14));
+            Skill_Level_Related.putInt("Skill_Level_11", p_38719_.get(15));
+            Skill_Level_Related.putInt("Skill_Level_12", p_38719_.get(16));
+            Skill_Level_Related.putInt("Skill_Level_13", p_38719_.get(17));
+            Skill_Level_Related.putInt("Skill_Level_14", p_38719_.get(18));
+            Skill_Level_Related.putInt("Skill_Level_15", p_38719_.get(19));
+            Skill_Level_Related.putInt("Skill_Level_16", p_38719_.get(20));
+            Skill_Level_Related.putInt("Skill_Level_17", p_38719_.get(21));
+            Skill_Level_Related.putInt("Skill_Level_18", p_38719_.get(22));
+            Skill_Level_Related.putInt("Skill_Level_19", p_38719_.get(23));
+            Skill_Level_Related.putInt("Skill_Level_20", p_38719_.get(24));
+            Skill_Level_Related.putInt("Skill_Level_21", p_38719_.get(25));
+            Skill_Level_Related.putInt("Skill_Level_22", p_38719_.get(26));
+            Skill_Level_Related.putInt("Skill_Level_23", p_38719_.get(27));
+            Skill_Level_Related.putInt("Skill_Level_24", p_38719_.get(28));
+            Skill_Level_Related.putInt("Skill_Level_25", p_38719_.get(29));
+            Skill_Level_Related.putInt("Skill_Level_26", p_38719_.get(30));
+            Skill_Level_Related.putInt("Skill_Level_27", p_38719_.get(31));
+            Skill_Level_Related.putInt("Skill_Level_28", p_38719_.get(32));
+            Skill_Level_Related.putInt("Skill_Level_29", p_38719_.get(33));
+            Skill_Level_Related.putInt("Skill_Level_30", p_38719_.get(34));
+            Skill_Level_Related.putInt("Skill_Level_31", p_38719_.get(35));
+            Skill_Level_Related.putInt("Skill_Level_32", p_38719_.get(36));
+            Skill_Level_Related.putInt("Skill_Level_33", p_38719_.get(37));
+            Skill_Level_Related.putInt("Skill_Level_34", p_38719_.get(38));
+            Skill_Level_Related.putInt("Skill_Level_35", p_38719_.get(39));
+            Skill_Level_Related.putInt("Skill_Level_36", p_38719_.get(40));
+            Skill_Level_Related.putInt("Skill_Level_37", p_38719_.get(41));
+            Skill_Level_Related.putInt("Skill_Level_38", p_38719_.get(42));
+            Skill_Level_Related.putInt("Skill_Level_39", p_38719_.get(43));
+            Skill_Level_Related.putInt("Skill_Level_40", p_38719_.get(44));
+            Skill_Level_Related.putInt("Skill_Level_41", p_38719_.get(45));
+            Skill_Level_Related.putInt("Skill_Level_42", p_38719_.get(46));
+            Skill_Level_Related.putInt("Skill_Level_43", p_38719_.get(47));
+            Skill_Level_Related.putInt("Skill_Level_44", p_38719_.get(48));
+            Skill_Level_Related.putInt("Skill_Level_45", p_38719_.get(49));
+            Skill_Level_Related.putInt("Skill_Level_46", p_38719_.get(50));
+            Skill_Level_Related.putInt("Skill_Level_47", p_38719_.get(51));
+            Skill_Level_Related.putInt("Skill_Level_48", p_38719_.get(52));
+            Skill_Level_Related.putInt("Skill_Level_49", p_38719_.get(53));
+            Skill_Level_Related.putInt("Skill_Level_50", p_38719_.get(54));
+            Skill_Level_Related.putInt("Skill_Level_51", p_38719_.get(55));
+            Skill_Level_Related.putInt("Skill_Level_52", p_38719_.get(56));
+            Skill_Level_Related.putInt("Skill_Level_53", p_38719_.get(57));
+            Skill_Level_Related.putInt("Skill_Level_54", p_38719_.get(58));
+            Skill_Level_Related.putInt("Skill_Level_55", p_38719_.get(59));
+            Skill_Level_Related.putInt("Skill_Level_56", p_38719_.get(60));
+            Skill_Level_Related.putInt("Skill_Level_57", p_38719_.get(61));
+            Skill_Level_Related.putInt("Skill_Level_58", p_38719_.get(62));
+            Skill_Level_Related.putInt("Skill_Level_59", p_38719_.get(63));
+            Skill_Level_Related.putInt("Skill_Level_60", p_38719_.get(64));
+            Skill_Level_Related.putInt("Skill_Level_61", p_38719_.get(65));
+            Skill_Level_Related.putInt("Skill_Level_62", p_38719_.get(66));
+            Skill_Level_Related.putInt("Skill_Level_63", p_38719_.get(67));
+            Skill_Level_Related.putInt("Skill_Level_64", p_38719_.get(68));
+            Skill_Level_Related.putInt("Skill_Level_65", p_38719_.get(69));
+            Skill_Level_Related.putInt("Skill_Level_66", p_38719_.get(70));
+            Skill_Level_Related.putInt("Skill_Level_67", p_38719_.get(71));
+            Skill_Level_Related.putInt("Skill_Level_68", p_38719_.get(72));
+            Skill_Level_Related.putInt("Skill_Level_69", p_38719_.get(73));
+            Skill_Level_Related.putInt("Skill_Level_70", p_38719_.get(74));
+            Skill.put("Skill_Level_Related", Skill_Level_Related);
+
+            return Skill;
+        }
+        public void reset(){
+            //技能点相关
+            this.Skill_Point += Skill_Point_Used;
+            this.Skill_Upgrade_Point += Skill_Upgrade_Point_Used;
+            this.Skill_Point_Used = 0;
+            this.Skill_Upgrade_Point_Used = 0;
+            //技能等级相关
+            this.Skill_0_Level = 0;
+            this.Skill_1_Level = 0;
+            this.Skill_2_Level = 0;
+            this.Skill_3_Level = 0;
+            this.Skill_4_Level = 0;
+            this.Skill_5_Level = 0;
+            this.Skill_6_Level = 0;
+            this.Skill_7_Level = 0;
+            this.Skill_8_Level = 0;
+            this.Skill_9_Level = 0;
+            this.Skill_10_Level = 0;
+            this.Skill_11_Level = 0;
+            this.Skill_12_Level = 0;
+            this.Skill_13_Level = 0;
+            this.Skill_14_Level = 0;
+            this.Skill_15_Level = 0;
+            this.Skill_16_Level = 0;
+            this.Skill_17_Level = 0;
+            this.Skill_18_Level = 0;
+            this.Skill_19_Level = 0;
+            this.Skill_20_Level = 0;
+            this.Skill_21_Level = 0;
+            this.Skill_22_Level = 0;
+            this.Skill_23_Level = 0;
+            this.Skill_24_Level = 0;
+            this.Skill_25_Level = 0;
+            this.Skill_26_Level = 0;
+            this.Skill_27_Level = 0;
+            this.Skill_28_Level = 0;
+            this.Skill_29_Level = 0;
+            this.Skill_30_Level = 0;
+            this.Skill_31_Level = 0;
+            this.Skill_32_Level = 0;
+            this.Skill_33_Level = 0;
+            this.Skill_34_Level = 0;
+            this.Skill_35_Level = 0;
+            this.Skill_36_Level = 0;
+            this.Skill_37_Level = 0;
+            this.Skill_38_Level = 0;
+            this.Skill_39_Level = 0;
+            this.Skill_40_Level = 0;
+            this.Skill_41_Level = 0;
+            this.Skill_42_Level = 0;
+            this.Skill_43_Level = 0;
+            this.Skill_44_Level = 0;
+            this.Skill_45_Level = 0;
+            this.Skill_46_Level = 0;
+            this.Skill_47_Level = 0;
+            this.Skill_48_Level = 0;
+            this.Skill_49_Level = 0;
+            this.Skill_50_Level = 0;
+            this.Skill_51_Level = 0;
+            this.Skill_52_Level = 0;
+            this.Skill_53_Level = 0;
+            this.Skill_54_Level = 0;
+            this.Skill_55_Level = 0;
+            this.Skill_56_Level = 0;
+            this.Skill_57_Level = 0;
+            this.Skill_58_Level = 0;
+            this.Skill_59_Level = 0;
+            this.Skill_60_Level = 0;
+            this.Skill_61_Level = 0;
+            this.Skill_62_Level = 0;
+            this.Skill_63_Level = 0;
+            this.Skill_64_Level = 0;
+            this.Skill_65_Level = 0;
+            this.Skill_66_Level = 0;
+            this.Skill_67_Level = 0;
+            this.Skill_68_Level = 0;
+            this.Skill_69_Level = 0;
+            this.Skill_70_Level = 0;
+        }
+}

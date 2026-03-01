@@ -1,0 +1,27 @@
+package com.tearhpi.immortal.util;
+
+import com.tearhpi.immortal.Immortal;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+
+public class ModTags {
+    public static class Blocks {
+        private static TagKey<Block> createTag(String name){
+            return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Immortal.MODID, name));
+        };
+    }
+    public static class Items {
+        public static final TagKey<Item> ATTACKABLE = createTag("attackable");
+        public static final TagKey<Item> WEAPON_ENHANCEMENT_SUCCESS_SCROLL = createTag("weapon_enhancement_success_scroll");
+        public static final TagKey<Item> WEAPON_ENHANCEMENT_PROTECTION_SCROLL = createTag("weapon_enhancement_protection_scroll");
+        public static final TagKey<Item> WEAPON_FORGING_CHANCE_SCROLL = createTag("weapon_forging_chance_scroll");
+
+        private static TagKey<Item> createTag(String name){
+            return ItemTags.create(ResourceLocation.fromNamespaceAndPath(Immortal.MODID, name));
+        };
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "enhancement_table_do" : {
+    "subtitle": "sounds.immortal.enhancement_table_do",
+    "sounds": [
+      "immortal:enhancement_table_do"
+    ]
+  },
+  "magic_explode" : {
+    "subtitle": "sounds.immortal.magic_explode",
+    "sounds": [
+      "immortal:skill/magic_explode"
+    ]
+  },
+  "skill_6_summon" : {
+    "subtitle": "sounds.immortal.skill_6_summon",
+    "sounds": [
+      "immortal:skill/skill_6_summon"
+    ]
+  },
+  "skill_7_summon" : {
+    "subtitle": "sounds.immortal.skill_7_summon",
+    "sounds": [
+      "immortal:skill/skill_7_summon"
+    ]
+  },
+  "normal_attack" : {
+    "subtitle": "sounds.immortal.normal_attack",
+    "sounds": [
+      "immortal:skill/normal_attack"
+    ]
+  }
+}

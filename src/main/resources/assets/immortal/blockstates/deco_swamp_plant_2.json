@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+    {"model": "immortal:block/deco/swamp/deco_swamp_plant_2"},
+    {"model": "immortal:block/deco/swamp/deco_swamp_plant_2_1"},
+    {"model": "immortal:block/deco/swamp/deco_swamp_plant_2_2"},
+    {"model": "immortal:block/deco/swamp/deco_swamp_plant_2_3"},
+    {"model": "immortal:block/deco/swamp/deco_swamp_plant_2_4"}
+    ]
+  }
+}

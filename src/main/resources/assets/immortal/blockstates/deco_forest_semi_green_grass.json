@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "immortal:block/deco/forest/semi_green_grass"
+      },
+      {
+        "model": "immortal:block/deco/forest/semi_green_grass",
+        "y": 90
+      },
+      {
+        "model": "immortal:block/deco/forest/semi_green_grass",
+        "y": 180
+      },
+      {
+        "model": "immortal:block/deco/forest/semi_green_grass",
+        "y": 270
+      }
+    ]
+  }
+}

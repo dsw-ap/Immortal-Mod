@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "immortal:item/test_item/test_item_8"
+  }
+}

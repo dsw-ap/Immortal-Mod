@@ -1,0 +1,10 @@
+{
+  "parent": "immortal:block/deco/forest/_new_slab",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "immortal:block/deco_block/forest/flourishing_side",
+    "bottom": "immortal:block/deco_block/forest/grass_down",
+    "top": "immortal:block/deco_block/forest/flourishing_top",
+    "side": "immortal:block/deco_block/forest/flourishing_side"
+  }
+}

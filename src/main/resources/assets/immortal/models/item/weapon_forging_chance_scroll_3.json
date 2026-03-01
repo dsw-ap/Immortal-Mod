@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "immortal:item/weapon_forging_chance_scroll_3"
+  }
+}

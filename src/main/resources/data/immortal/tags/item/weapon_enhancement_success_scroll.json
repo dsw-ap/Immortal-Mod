@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "immortal:weapon_enhancement_success_scroll_1",
+    "immortal:weapon_enhancement_success_scroll_2",
+    "immortal:weapon_enhancement_success_scroll_3",
+    "immortal:weapon_enhancement_success_scroll_4",
+    "immortal:weapon_enhancement_success_scroll_5"
+  ]
+}

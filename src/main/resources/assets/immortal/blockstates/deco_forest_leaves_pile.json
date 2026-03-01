@@ -1,0 +1,160 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_a"
+      },
+      "when": {
+        "facing": "north",
+        "flower_amount": "1|2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_a",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "flower_amount": "1|2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_a",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "flower_amount": "1|2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_a",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "flower_amount": "1|2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_b"
+      },
+      "when": {
+        "facing": "north",
+        "flower_amount": "2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_b",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "flower_amount": "2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_b",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "flower_amount": "2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_b",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "flower_amount": "2|3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_c"
+      },
+      "when": {
+        "facing": "north",
+        "flower_amount": "3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_c",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "flower_amount": "3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_c",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "flower_amount": "3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_c",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "flower_amount": "3|4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_d"
+      },
+      "when": {
+        "facing": "north",
+        "flower_amount": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_d",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "flower_amount": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_d",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "flower_amount": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "immortal:block/deco/forest/flower_bed_d",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "flower_amount": "4"
+      }
+    }
+  ]
+}

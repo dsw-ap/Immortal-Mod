@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "immortal:block/deco_block/forest/leaf_litter"
+  }
+}

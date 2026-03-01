@@ -1,0 +1,10 @@
+{
+    "parent": "immortal:block/deco/swamp/_new_slab",
+	"ambientocclusion": false,
+    "textures": {
+        "particle": "immortal:block/deco_block/swamp/dirt_down",
+        "bottom": "immortal:block/deco_block/swamp/dirt_down",
+        "top": "immortal:block/deco_block/swamp/dirt_down",
+        "side": "immortal:block/deco_block/swamp/dirt_down"
+    }
+}

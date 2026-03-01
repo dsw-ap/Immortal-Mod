@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "immortal.refmap.json",
+  "package": "com.tearhpi.immortal.mixin",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "AbstractContainerScreenAccessor",
+    "AbstractContainerScreenMixin",
+    "BakedGlyphAccessor",
+    "FontAccessor",
+    "ForgeGuiMixin",
+    "GameRendererAccessor",
+    "GameRendererMixin",
+    "GameRendererWorldAlphaMixin",
+    "GuiMixin",
+    "InventoryScreenMixin",
+    "KeyBoardInputMixin",
+    "MinecraftMixin",
+    "ParticleEngineMixin",
+    "RecipeBookComponentAccessor",
+    "RecipeBookComponentMixin",
+    "ScreenMixin"
+  ],
+  "mixins": [
+    "CreativeModeTabAccess",
+    "CreativeTabBuilderMixin",
+    "DisplayMixin",
+    "LivingEntityMixin",
+    "MobEffectMixin",
+    "PlayerMixin",
+    "ThrownEnderpearlTickMixin"
+  ]
+}

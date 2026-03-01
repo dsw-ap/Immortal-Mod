@@ -1,0 +1,31 @@
+package com.tearhpi.immortal.effect;
+
+import com.tearhpi.immortal.damage_type.ModDamageSources;
+import com.tearhpi.immortal.entity.custom._ImmortalNormalMob;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.entity.LivingEntity;
+
+import java.util.Set;
+
+public class AnnihilateEffect extends _TaggedMobEffect {
+
+    public AnnihilateEffect(MobEffectCategory category, int color, Set<_EffectTag> tags, int weight) {
+        super(category, color, tags, weight);
+    }
+
+    /**
+     * 每 tick 作用的逻辑
+     */
+    @Override
+    public void applyEffectTick(LivingEntity entity, int amplifier) {
+    }
+
+    /**
+     * 是否在当前 tick 执行 applyEffectTick。
+     */
+    @Override
+    public boolean isDurationEffectTick(int duration, int amplifier) {
+        return false;
+    }
+}
