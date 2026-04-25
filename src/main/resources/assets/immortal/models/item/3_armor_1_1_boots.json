@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "immortal:item/3_armor_1_1_helmet"
+  }
+}
